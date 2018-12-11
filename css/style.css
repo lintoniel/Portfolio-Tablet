@@ -1,0 +1,595 @@
+[v-cloak] {
+	display: none;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+}
+
+header {
+	height: 15%;
+}
+
+.flex {
+	display: flex;
+}
+
+@-webkit-keyframes JSmane {
+    from {width: 0;}
+    to {width: 85%; }
+}
+
+@keyframes JSmane {
+    from {width: 0;}
+    to {width: 85%; }
+}
+
+@-webkit-keyframes Htmlmane {
+    from {width: 0;}
+    to {width: 80%; }
+}
+
+@keyframes Htmlmane {
+    from {width: 0;}
+    to {width: 80%; }
+}
+
+@-webkit-keyframes Vuemane {
+    from {width: 0;}
+    to {width: 35%; }
+}
+
+@keyframes Vuemane {
+    from {width: 0;}
+    to {width: 35%; }
+}
+
+@-webkit-keyframes Cssmane {
+    from {width: 0;}
+    to {width: 90%; }
+}
+
+@keyframes Cssmane {
+    from {width: 0;}
+    to {width: 90%; }
+}
+
+@-webkit-keyframes full {
+    from {width: 0;}
+    to {width: 100%; }
+}
+
+@keyframes full {
+    from {width: 0;}
+    to {width: 100%; }
+}
+
+#portfolio {
+	height: 100%;
+}
+
+.menu {
+	height: 100%;
+  	background-color: #f04949;
+  	align-items: center;
+  	justify-content: space-around;
+}
+
+.avatar {
+	width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+}
+
+.avatar img {
+	margin-top: 3px;
+	height: 90%;
+	width: 90%;
+	border-radius: 50%;
+}
+
+.menuButton {
+	padding: 13px 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    border-radius: 28px;
+    transition: 0.5s;
+}
+
+.activeButton {
+	background-color: #203748;
+}
+
+.menuButton:hover {
+	background-color: #203748;
+	cursor: pointer;
+}
+
+.menuButton img {
+	margin-right: 10px;
+}
+
+content {
+	min-height: 75%;
+	max-height: 75%;
+	display: block;
+	overflow: auto;
+	background-color: #203748;
+}
+
+.bigAvatar {
+	flex: 30%;
+	text-align: center;
+}
+
+.bigAvatar img {
+	margin-top: 50px;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+.information {
+	margin-top: 50px;
+	flex: 70%;
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+}
+
+.informationTitle {
+	font-size: 38px;
+    font-weight: normal;
+    color: #2bce6c;
+    margin-bottom: 0;
+}
+
+.subTitle {
+	margin-top: 10px;
+	font-size: 24px;
+}
+
+.informationText {
+	font-size: 24px;
+	width: 70%;
+}
+
+.hireButton {
+	margin: 40px 100px;
+	text-align: center;
+	font-size: 28px;
+	padding: 12px 45px;
+	background-color: #39d084;
+	border-radius: 26px;
+	width: 30%;
+	transition: 0.5s;
+}
+
+.hireButton:hover {
+	background-color: #2fba74;
+}
+
+.skillsContent {
+	margin: 50px auto 0 auto;
+	width: 80%;
+	flex-direction: column;
+}
+
+.skillsContentElem {
+	margin-bottom: 30px;
+	width: 100%;
+	flex-direction: row;
+}
+
+.skillImage {
+	flex: 25%;
+}
+
+.skillImageElem {
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 100px;
+	border-radius: 50%;
+}
+
+.skillImageElemJS {
+	background-color: #30a5dc;
+}
+
+.skillImageElemHtml {
+	background-color: #ee742b;
+	font-size: 26px;
+}
+
+.skillImageElemVue {
+	background-color: #39d084;
+}
+
+.skillImageElemCss {
+	background-color: #f04949;
+	font-size: 26px;
+}
+
+.skillProgress {
+	margin-top: 10px;
+	flex: 75%;
+	flex-direction: column;
+}
+
+.skillName {
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+	font-size: 26px;
+	justify-content: space-between;
+}
+
+.skillNameIndex {
+	text-align: right;
+}
+
+.progressAnimatiom {
+	animation-duration: 2.5s;
+	-webkit-animation-duration: 2.5s;
+}
+
+.fullProgress {
+	animation-name: full;
+	-webkit-animation-name: full;
+	animation-duration: 1.5s;
+	-webkit-animation-duration: 1.5s;
+	height: 10px;
+    background-color: #ffffff; 
+    border-radius: 10px;
+}
+
+.maneProgress {
+	height: 10px;
+    border-radius: 10px;
+}
+
+.maneProgressJS {
+	animation-name: JSmane;
+	-webkit-animation-name: JSmane;
+	width: 85%;
+	background-color: #30a5dc;
+}
+
+.maneProgressHtml {
+	animation-name: Htmlmane;
+	-webkit-animation-name: Htmlmane;
+	width: 80%;
+	background-color: #ee742b;
+}
+
+.maneProgressVue {
+	animation-name: Vuemane;
+	-webkit-animation-name: Vuemane;
+	width: 35%;
+	background-color: #39d084;
+}
+
+.maneProgressCss {
+	animation-name: Cssmane;
+	-webkit-animation-name: Cssmane;
+	width: 90%;
+	background-color: #f04949;
+}
+
+.works {
+	margin: 0;
+}
+
+.worksImage {
+	display: inline-block;
+	width: 49%;
+	margin-top: 40px;
+}
+
+.worksImage:last-child {
+	margin-bottom: 40px;
+}
+
+.worksImageElem {
+	margin: 0 auto;
+	width: 250px;
+	height: 250px;
+	border-radius: 3px;
+	background-color: #e4e4e4;
+	background-size: cover;
+}
+
+.worksImageElem1 {
+	background-image: url('image/works/test.png');
+}
+
+.worksImageHover {
+	text-align: center;
+	line-height: 250px;
+	margin: 0 auto;
+	opacity: 0;
+	width: 250px;
+	height: 250px;
+	border-radius: 3px;
+	background-color: rgba(240, 73, 73, 0.8);
+	transition: opacity 0.5s;
+}
+
+.worksImageElem:hover .worksImageHover {
+	opacity: 1;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    overflow: auto;
+}
+
+
+.modalContent {
+	border-radius: 3px;
+}
+
+.resumeContent {
+	width: 60%;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+}
+
+.resumeTitle {
+	color: #4ace54;
+	font-weight: normal;
+	margin-top: 60px;
+}
+
+.resumeText {
+	font-size: 20px;
+	margin-top: 40px;
+}
+
+.resumeButton {
+	width: 300px;
+	display: block;
+	margin: 40px auto 0 auto;
+	background-color: #39d084;
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+	border:none;
+	border-radius: 20px;
+	padding: 20px 20px;
+	font-size: 20px;
+}
+
+.resumeButton img {
+	margin-right: 10px;
+}
+
+.resumeWeight {
+	font-size: 18px;
+	text-align: center;
+}
+
+.contact {
+	top: 15%;
+	position: fixed;
+	height: 75%;
+	width: 40%;
+	right: 0;
+	background-color: #ffffff;
+}
+
+.form {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.input {
+	display: block;
+	width: 70%;
+	margin: 20px auto 0 auto;
+	height: 10%;
+	color: #8f8f8f;
+	font-family: 'Open Sans', sans-serif;
+	padding: 17px 19px;
+	font-size: 20px;
+	border-radius: 3px;
+    background-color: #ddf3df;
+    border: none;
+}
+
+.textareaInput {
+	height: 30%;
+	resize: none;
+}
+
+.contactButton {
+	display: block;
+	margin: 15px auto 0 auto;
+	width: 140px;
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+	font-size: 18px;
+	background-color: #4ace54;
+	padding: 15px 0;
+	border-radius: 20px;
+	border: none;
+}
+
+footer {
+	height: 10%;
+    background-color: #355267;
+    display: flex;
+    padding: 0 36px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.footerContact {
+	cursor: pointer;
+}
+
+.footerContactActive {
+	color: #2bce6c;
+	font-weight: bolder;
+}
+
+/*@media screen and (max-width: 480px) {
+	header {
+		height: 25%;
+	}
+
+	.avatar {
+		display: none;
+	}
+
+	.menu {
+		flex-wrap: wrap;
+	}
+
+	.menu > div {
+		font-size: 19px;
+		text-align: center;
+		flex: 25%;
+	}
+
+	.profileContent {
+		padding: 0 15px;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.bigAvatar img {
+		margin-top: 20px;
+    	height: 150px;
+    	width: 150px;
+	}
+
+	.information {
+		margin-top: 0;
+	}
+
+	.informationTitle {
+		font-size: 33px;
+	}
+
+	.subTitle {
+		font-size: 21px;
+	}
+
+	.informationText {
+	    font-size: 21px;
+	    width: 100%;
+	}
+
+	.hireButton {
+	    text-align: center;
+	    font-size: 22px;	    
+	    width: 40%;
+	    display: block;
+	    margin: 30px auto;
+	}
+
+	.skillsContent {
+		margin-top: 30px;
+    	width: 90%;
+	}
+
+	.skillsContentElem {
+		margin-bottom: 50px;
+	}
+
+	.skillsContentElem:last-child {
+		margin-bottom: 20px
+	}
+
+	.skillImageElem {
+	    width: 50px;
+	    height: 50px;
+	    font-size: 20px;
+	    line-height: 50px;
+	}
+
+	.skillImageElemHtml, .skillImageElemCss {
+	    font-size: 16px;
+	}
+
+	.skillProgress {
+		margin-top: 0;
+	}
+
+	.skillName {
+		font-size: 20px;
+	}
+
+	.progressAnimatiom {
+		height: 7px;
+	}
+
+	.worksImage {
+		width: 100%;
+	}
+
+	.worksImageElem, .worksImageHover {
+	    width: 200px;
+	    height: 200px;
+	}
+
+	.worksImageHover {
+		line-height: 200px;
+	}
+
+	.resumeContent {
+		width: 90%;
+		text-align: center;
+	}
+
+	.resumeTitle {
+		margin-top: 50px;
+	}
+
+	.resumeButton {
+		font-size: 18px;
+	}
+
+}
+
+@media screen and (max-width: 330px) {
+	.hireButton {
+	    font-size: 20px;
+	}
+}*/
+
+@media (min-width: 800px) {
+	content {
+		max-height: 5000px;
+	}
+
+	.worksImage {
+        width: 33%;
+
+	}
+}
+
+@media (min-width: 1200px) {
+    .worksImage {
+        width: 24%;
+    }
+}
