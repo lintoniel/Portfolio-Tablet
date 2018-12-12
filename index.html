@@ -10,33 +10,35 @@
 <body>
 	<div v-cloak @click="showContact=false" id="portfolio">
 		<header>
-			<div class="menu flex">
-				<div class="avatar"><img src="css/image/header/avatar1.jpg"></div>
-				<div @click="changePage('profile')"
-					 :class="page == 'profile'? 'activeButton' : ''"
-					 class="profile menuButton">
-					<img src="css/image/header/profile.png">
-					PROFILE
-				</div>
-				<div @click="changePage('skills')"
-					:class="page == 'skills'? 'activeButton' : ''"
-				 	class="skills menuButton">
-					<img src="css/image/header/skills.png">
-					SKILLS
-				</div>
-				<div @click="changePage('works')" 
-					:class="page == 'works'? 'activeButton' : ''"
-				 	class="works menuButton">
-					<img src="css/image/header/works.png">
-					WORKS
-				</div>
-				<div @click="changePage('resume')" 
-					:class="page == 'resume'? 'activeButton' : ''"
-				 	class="resume menuButton">
-					<img src="css/image/header/resume.png">
-					RESUME
-				</div>
-			</div>
+			<nav>
+				<ul class="flex">
+					<li class="avatar"><img src="css/image/header/avatar1.jpg"></li>
+					<li @click="changePage('profile')"
+						 :class="page == 'profile'? 'activeButton' : ''"
+						 class="profile menuButton">
+						<img src="css/image/header/profile.png">
+						PROFILE
+					</li>
+					<li @click="changePage('skills')"
+						:class="page == 'skills'? 'activeButton' : ''"
+					 	class="skills menuButton">
+						<img src="css/image/header/skills.png">
+						SKILLS
+					</li>
+					<li @click="changePage('works')" 
+						:class="page == 'works'? 'activeButton' : ''"
+					 	class="works menuButton">
+						<img src="css/image/header/works.png">
+						WORKS
+					</li>
+					<li @click="changePage('resume')" 
+						:class="page == 'resume'? 'activeButton' : ''"
+					 	class="resume menuButton">
+						<img src="css/image/header/resume.png">
+						RESUME
+					</li>
+				</ul>
+			</nav>
 		</header>
 
 		<content>

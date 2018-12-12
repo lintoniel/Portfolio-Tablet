@@ -7,6 +7,8 @@ html {
 }
 
 body {
+	min-width: 700px;
+	overflow: auto;
 	height: 100%;
 	margin: 0;
 }
@@ -73,11 +75,18 @@ header {
 	height: 100%;
 }
 
-.menu {
+nav {
 	height: 100%;
   	background-color: #f04949;
-  	align-items: center;
+}
+
+nav ul {
+	height: 100%;
+	align-items: center;
   	justify-content: space-around;
+  	list-style: none;
+  	padding: 0;
+  	margin: 0;
 }
 
 .avatar {
