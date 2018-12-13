@@ -12,29 +12,29 @@
 		<header>
 			<nav>
 				<ul class="flex">
-					<li class="avatar"><img src="css/image/header/avatar1.jpg"></li>
+					<li class="avatar"><img src="image/header/avatar1.jpg"></li>
 					<li @click="changePage('profile')"
 						 :class="page == 'profile'? 'activeButton' : ''"
 						 class="profile menuButton">
-						<img src="css/image/header/profile.png">
+						<img src="image/header/profile.png">
 						PROFILE
 					</li>
 					<li @click="changePage('skills')"
 						:class="page == 'skills'? 'activeButton' : ''"
 					 	class="skills menuButton">
-						<img src="css/image/header/skills.png">
+						<img src="image/header/skills.png">
 						SKILLS
 					</li>
 					<li @click="changePage('works')" 
 						:class="page == 'works'? 'activeButton' : ''"
 					 	class="works menuButton">
-						<img src="css/image/header/works.png">
+						<img src="image/header/works.png">
 						WORKS
 					</li>
 					<li @click="changePage('resume')" 
 						:class="page == 'resume'? 'activeButton' : ''"
 					 	class="resume menuButton">
-						<img src="css/image/header/resume.png">
+						<img src="image/header/resume.png">
 						RESUME
 					</li>
 				</ul>
@@ -44,14 +44,14 @@
 		<content>
 			<div class="profileContent flex" v-if="page == 'profile'">
 				<div class="bigAvatar">
-					<img src="css/image/header/avatar1.jpg">
+					<img src="image/header/avatar1.jpg">
 				</div>
 				<div class="information">
 					<h1 class="informationTitle">Elena Dyba</h1>
 					<p class="subTitle">Web JS-developer</p>
 					<p class="informationText">Hello I am Elena Dyba Web Js-developer from Kiev, If you have something to be done just call my name and ill be there. :-) Here you can find some examples of my works</p>
 					<div class="hireButton">
-						<img src="css/image/content/Check.png">
+						<img src="image/content/Check.png">
 						HIRE ME
 					</div>
 				</div>
@@ -119,45 +119,17 @@
 						<img :src="src" class="modalContent">
 				</div>
 				<template v-else>
-					<div @click.stop="showModal('css/image/works/test.png')" class="worksImage">
+					<div @click.stop="showModal('image/works/work-1.png')" class="worksImage">
 						<div class="worksImageElem worksImageElem1">
 							<div class="worksImageHover">
-								<img src="css/image/works/View.png">
+								<img src="image/works/View.png">
 							</div>
 						</div>
 					</div>
-					<div @click.stop="showModal()" class="worksImage">
-						<div class="worksImageElem">
+					<div @click.stop="showModal('image/works/work-2.png')" class="worksImage">
+						<div class="worksImageElem worksImageElem2">
 							<div class="worksImageHover">
-								<img src="css/image/works/View.png">
-							</div>
-						</div>
-					</div>
-					<div @click.stop="showModal()" class="worksImage">
-						<div class="worksImageElem">
-							<div class="worksImageHover">
-								<img src="css/image/works/View.png">
-							</div>
-						</div>
-					</div>
-					<div @click.stop="showModal()" class="worksImage">
-						<div class="worksImageElem">
-							<div class="worksImageHover">
-								<img src="css/image/works/View.png">
-							</div>
-						</div>
-					</div>
-					<div @click.stop="showModal()" class="worksImage">
-						<div class="worksImageElem">
-							<div class="worksImageHover">
-								<img src="css/image/works/View.png">
-							</div>
-						</div>
-					</div>
-					<div @click.stop="showModal()" class="worksImage">
-						<div class="worksImageElem">
-							<div class="worksImageHover">
-								<img src="css/image/works/View.png">
+								<img src="image/works/View.png">
 							</div>
 						</div>
 					</div>
@@ -168,7 +140,7 @@
 					<h1 class="resumeTitle">MY RESUME</h1>
 					<p class="resumeText">You can download my resume for your  references, and I hope that we can meet very soon :-)  </p>
 					<button class="resumeButton">
-						<img src="css/image/content/Download.png">
+						<img src="image/content/Download.png">
 						DOWNLOAD RESUME
 					</button>
 					<p class="resumeWeight">125kb</p>
@@ -180,7 +152,7 @@
 					<input type="text" name="email" placeholder="EMAIL" class="input">
 					<textarea placeholder="MESSAGE" class="input textareaInput"></textarea>
 					<button class="contactButton">
-						<img src="css/image/content/Send.png">
+						<img src="image/content/Send.png">
 						SEND
 					</button>
 				</form>
